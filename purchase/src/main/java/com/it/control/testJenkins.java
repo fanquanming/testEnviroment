@@ -11,6 +11,6 @@ public class testJenkins {
     @RequestMapping("/purchase")
     @ResponseBody
     public String test() {
-        return "测试多环境打包 ";
+        return "test enviroment";
     }
 }
